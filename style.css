@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    background-image: url("https://images.pexels.com/photos/2453551/pexels-photo-2453551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-shadow: 5px 5px 7px 5px #8888;
+}
+h1,h2{
+    text-align: center;
+    color: rgb(199, 212, 214);
+}
+.input-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #ced6ce;
+    background-image: url("https://images.pexels.com/photos/2453551/pexels-photo-2453551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    border-radius: 50%;
+}
+.input-section label{
+    font-weight: bold;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.input-section input[type="number"], .input-section input[type="date"]{
+    padding: 5px;
+    margin-right: 10px;
+}
+.input-section button{
+    padding: 5px 10px;
+    background-color: #16990b;
+    color: rgb(251, 254, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.expenses-list{
+    margin: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    color: #e7f0ec;
+}
+th{
+    background-color: rgb(38, 151, 16);
+    color: #e7f0ec;
+}
+tfoot td{
+    font-weight: bold;
+}
+.delete-btn{
+    padding: 5px 10px;
+    background-color: rgb(27, 119, 9);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.box{
+    background-image: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    color: rgb(5, 4, 4);
+}
